@@ -79,7 +79,7 @@ The full **Developer & AI System Prompt Vault** contains 150+ categorized instru
 
 ## Repository Structure
 
-`
+``	ext
 developer-prompt-vault/
 ├── cursor_rules/
 │   └── .cursorrules.example
@@ -87,7 +87,7 @@ developer-prompt-vault/
 │   └── solid_refactor.md
 ├── LICENSE
 └── README.md
-`
+``
 
 ---
 
