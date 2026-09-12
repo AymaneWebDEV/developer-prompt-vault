@@ -73,7 +73,8 @@ The full **Developer & AI System Prompt Vault** contains 150+ categorized instru
 - **Security & Audit:** OWASP Top 10 systematic audits, authentication middleware validation, and secret detection.
 - **DevOps & CI/CD:** Production multi-stage Dockerfiles and hardened GitHub Actions pipelines.
 
-[**Download the Full Vault on Gumroad**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)
+[**Download the Complete 150+ Prompt Vault on Gumroad (English)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)  
+[**Télécharger l'Édition Française (Pack Prompts Développeur FR)**](https://nexusbuilds.gumroad.com/l/pack-prompts-developpeur-fr)
 
 ---
 
