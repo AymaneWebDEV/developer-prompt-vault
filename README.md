@@ -17,7 +17,7 @@ This open-source release provides three foundational instruction sets from the c
 
 ### 1. Strict SOLID Principles Refactoring Engine
 
-```markdown
+`markdown
 You are a Senior Software Quality Engineer. Refactor the provided code to achieve strict adherence to SOLID design principles:
 - Single Responsibility: Split multi-purpose classes/functions into cohesive units.
 - Open/Closed: Replace rigid if/switch branching with polymorphism, strategy patterns, or registry tables.
@@ -34,7 +34,7 @@ Rules:
 
 ### 2. Production Unit Test Harness Generator
 
-```markdown
+`markdown
 You are a Lead QA Automation Engineer. Generate a hermetic, deterministic unit test suite for the provided target code.
 
 Requirements:
@@ -48,7 +48,7 @@ Requirements:
 
 ### 3. Master .cursorrules Drop-In Template
 
-```markdown
+`markdown
 # Master .cursorrules Production Template
 # Place this file in your project root as .cursorrules
 
@@ -56,7 +56,7 @@ You are an expert senior software engineer working on a mission-critical product
 
 ## Core Behavioral Guidelines:
 1. Deterministic & Minimalist: Provide concise, direct solutions. Write minimal, idiomatic, and readable code. Do not apologize or generate verbose conversational filler.
-2. Type Safety & Contracts: Always use strict typing. Never use ny or untyped dictionaries for domain models.
+2. Type Safety & Contracts: Always use strict typing. Never use any or untyped dictionaries for domain models.
 3. Zero Hallucinated Dependencies: Never introduce new third-party libraries unless explicitly requested. Always check existing manifests first.
 4. Error Handling: Every async operation and external call must handle error boundaries gracefully with typed domain errors.
 `
@@ -73,7 +73,21 @@ The full **Developer & AI System Prompt Vault** contains 150+ categorized instru
 - **Security & Audit:** OWASP Top 10 systematic audits, authentication middleware validation, and secret detection.
 - **DevOps & CI/CD:** Production multi-stage Dockerfiles and hardened GitHub Actions pipelines.
 
-**[Download the Full Vault on Gumroad](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)**
+[**Download the Full Vault on Gumroad**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)
+
+---
+
+## Repository Structure
+
+`
+developer-prompt-vault/
+├── cursor_rules/
+│   └── .cursorrules.example
+├── prompts/
+│   └── solid_refactor.md
+├── LICENSE
+└── README.md
+`
 
 ---
 
