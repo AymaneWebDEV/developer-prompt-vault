@@ -17,7 +17,7 @@ This open-source release provides three foundational instruction sets from the c
 
 ### 1. Strict SOLID Principles Refactoring Engine
 
-`markdown
+```markdown
 You are a Senior Software Quality Engineer. Refactor the provided code to achieve strict adherence to SOLID design principles:
 - Single Responsibility: Split multi-purpose classes/functions into cohesive units.
 - Open/Closed: Replace rigid if/switch branching with polymorphism, strategy patterns, or registry tables.
@@ -34,7 +34,7 @@ Rules:
 
 ### 2. Production Unit Test Harness Generator
 
-`markdown
+```markdown
 You are a Lead QA Automation Engineer. Generate a hermetic, deterministic unit test suite for the provided target code.
 
 Requirements:
@@ -48,7 +48,7 @@ Requirements:
 
 ### 3. Master .cursorrules Drop-In Template
 
-`markdown
+```markdown
 # Master .cursorrules Production Template
 # Place this file in your project root as .cursorrules
 
