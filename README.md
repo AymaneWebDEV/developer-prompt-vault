@@ -7,7 +7,26 @@
 
 Unconstrained prompts lead to hallucinated imports, omitted edge cases, and verbose conversational filler. This repository contains deterministic, battle-tested instruction sets designed for clean architecture, precision refactoring, automated testing, and security audits.
 
-[**Download the Complete 150+ Prompt Vault on Gumroad (Pay What You Want / +)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)
+[**Download the Complete 150+ Prompt Vault on Gumroad (English // Pay What You Want / +)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)  
+[**Télécharger l'Édition Française (Pack Prompts Développeur FR // 0€+)**](https://nexusbuilds.gumroad.com/l/pack-prompts-developpeur-fr)
+
+---
+
+## Free Open-Source Preview vs. Full Production Vault
+
+| Module / Capability | This Free Repository | Full Production Vault (+) |
+| :--- | :---: | :---: |
+| **SOLID Principles Refactoring Engine** | Included | Included |
+| **Unit Test Harness Generator (AAA Pattern)** | Included | Included |
+| **Master .cursorrules Template** | Basic | Advanced Multi-Framework |
+| **Clean Architecture & DDD Scaffolding** | — | 35+ Categorized Schemas |
+| **PostgreSQL & MySQL Migration Optimizers** | — | 20+ Production Rulesets |
+| **OWASP Top 10 Security SAST Audit** | — | Comprehensive Inspector |
+| **Hardened Multi-Stage Dockerfiles** | — | Node, Python, Go, Rust |
+| **Hardened CI/CD Pipelines (GitHub Actions)** | — | 15+ Enterprise Workflows |
+| **French Language Edition Included** | — | Full Bilingual Suite |
+
+👉 [**Get the Full 150+ Instruction Package on Gumroad (+)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)
 
 ---
 
@@ -63,24 +82,9 @@ You are an expert senior software engineer working on a mission-critical product
 
 ---
 
-## Complete Vault Overview
-
-The full **Developer & AI System Prompt Vault** contains 150+ categorized instructions:
-
-- **Architecture:** Domain-Driven Design boundaries, Clean Architecture scaffolding, API contract schemas, and database schema migrations.
-- **Refactoring:** Strict SOLID enforcement, cognitive complexity reduction, and legacy decoupling.
-- **Automated Testing:** PyTest, Jest, and Go test harness generators with boundary coverage.
-- **Security & Audit:** OWASP Top 10 systematic audits, authentication middleware validation, and secret detection.
-- **DevOps & CI/CD:** Production multi-stage Dockerfiles and hardened GitHub Actions pipelines.
-
-[**Download the Complete 150+ Prompt Vault on Gumroad (English)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)  
-[**Télécharger l'Édition Française (Pack Prompts Développeur FR)**](https://nexusbuilds.gumroad.com/l/pack-prompts-developpeur-fr)
-
----
-
 ## Repository Structure
 
-``	ext
+`	ext
 developer-prompt-vault/
 ├── cursor_rules/
 │   └── .cursorrules.example
@@ -88,11 +92,20 @@ developer-prompt-vault/
 │   └── solid_refactor.md
 ├── LICENSE
 └── README.md
-``
+`
+
+---
+
+## Quickstart & Installation
+
+To use these rules in your active projects:
+1. Copy .cursorrules.example to your repository root and rename it to .cursorrules.
+2. For Claude or ChatGPT, paste any instruction markdown block as your **System Instructions** before starting a coding session.
+3. To unlock the full directory of 150+ production prompts, [download the complete vault on Gumroad](https://nexusbuilds.gumroad.com/l/developer-prompt-vault).
 
 ---
 
 ## License
 
 Distributed under the [MIT License](LICENSE).  
-Maintained by NexusBuilds.
+Maintained by **NexusBuilds**.
