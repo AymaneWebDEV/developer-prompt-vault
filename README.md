@@ -8,7 +8,8 @@
 Unconstrained prompts lead to hallucinated imports, omitted edge cases, and verbose conversational filler. This repository contains deterministic, battle-tested instruction sets designed for clean architecture, precision refactoring, automated testing, and security audits.
 
 [**Download the Complete 150+ Prompt Vault on Gumroad (English // Pay What You Want / +)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)  
-[**Télécharger l'Édition Française (Pack Prompts Développeur FR // 0€+)**](https://nexusbuilds.gumroad.com/l/pack-prompts-developpeur-fr)
+[**Télécharger l'Édition Française (Pack Prompts Développeur FR // 0€+)**](https://nexusbuilds.gumroad.com/l/pack-prompts-developpeur-fr)  
+[**🚀 Production Boilerplate: FastAPI & AI Agent Micro-SaaS Starter Kit ()**](https://nexusbuilds.gumroad.com/l/fastapi-ai-starter-kit)
 
 ---
 
