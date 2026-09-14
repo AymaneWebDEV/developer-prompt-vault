@@ -4,20 +4,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Gumroad Download](https://img.shields.io/badge/Full_Vault-Download_on_Gumroad-black?logo=gumroad&logoColor=white)](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)
 [![Stars](https://img.shields.io/github/stars/AymaneWebDEV/developer-prompt-vault?style=social)](https://github.com/AymaneWebDEV/developer-prompt-vault)
+[![Release: v1.0.0](https://img.shields.io/badge/Release-v1.0.0_Latest-emerald.svg)](https://github.com/AymaneWebDEV/developer-prompt-vault/releases/tag/v1.0.0)
 
 Unconstrained prompts lead to hallucinated imports, omitted edge cases, and verbose conversational filler. This repository contains deterministic, battle-tested instruction sets designed for clean architecture, precision refactoring, automated testing, and security audits.
 
-[**Download the Complete 150+ Prompt Vault on Gumroad (English // Pay What You Want / $0+)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)  
-[**Télécharger l'Édition Française (Pack Prompts Développeur FR // 0€+)**](https://nexusbuilds.gumroad.com/l/pack-prompts-developpeur-fr)  
-[**Production Boilerplate: Next.js 15 AI SaaS Starter Kit ($29)**](https://nexusbuilds.gumroad.com/l/nextjs-ai-saas-kit)  
-[**Production Boilerplate: FastAPI & AI Agent Micro-SaaS Starter Kit ($19)**](https://nexusbuilds.gumroad.com/l/fastapi-ai-starter-kit)
-
+- [**Download the Complete 150+ Prompt Vault on Gumroad (English // Pay What You Want / $0+)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)  
+- [**Télécharger l'Édition Française (Pack Prompts Développeur FR // 0€+)**](https://nexusbuilds.gumroad.com/l/pack-prompts-developpeur-fr)  
+- [**Production Boilerplate: Next.js 15 AI SaaS Starter Kit ($29)**](https://nexusbuilds.gumroad.com/l/nextjs-ai-saas-kit)  
+- [**Enterprise Automation: n8n AI Agent Automation Vault ($24)**](https://nexusbuilds.gumroad.com/l/n8n-ai-automation-vault)  
+- [**Production Boilerplate: FastAPI & AI Agent Micro-SaaS Starter Kit ($19)**](https://nexusbuilds.gumroad.com/l/fastapi-ai-starter-kit)  
 
 ---
 
 ## Free Open-Source Preview vs. Full Production Vault
 
-| Module / Capability | This Free Repository | Full Production Vault (+) |
+| Module / Capability | This Free Repository | Full Production Vault ($0+) |
 | :--- | :---: | :---: |
 | **SOLID Principles Refactoring Engine** | Included | Included |
 | **Unit Test Harness Generator (AAA Pattern)** | Included | Included |
@@ -29,7 +30,7 @@ Unconstrained prompts lead to hallucinated imports, omitted edge cases, and verb
 | **Hardened CI/CD Pipelines (GitHub Actions)** | — | 15+ Enterprise Workflows |
 | **French Language Edition Included** | — | Full Bilingual Suite |
 
-👉 [**Get the Full 150+ Instruction Package on Gumroad (+)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)
+👉 [**Get the Full 150+ Instruction Package on Gumroad ($0+)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)
 
 ---
 
@@ -39,7 +40,7 @@ This open-source release provides three foundational instruction sets from the c
 
 ### 1. Strict SOLID Principles Refactoring Engine
 
-`markdown
+```markdown
 You are a Senior Software Quality Engineer. Refactor the provided code to achieve strict adherence to SOLID design principles:
 - Single Responsibility: Split multi-purpose classes/functions into cohesive units.
 - Open/Closed: Replace rigid if/switch branching with polymorphism, strategy patterns, or registry tables.
@@ -50,13 +51,13 @@ You are a Senior Software Quality Engineer. Refactor the provided code to achiev
 Rules:
 1. Preserve existing public API signatures unless explicitly instructed.
 2. Provide a cyclomatic complexity reduction summary before presenting the refactored code.
-`
+```
 
 ---
 
 ### 2. Production Unit Test Harness Generator
 
-`markdown
+```markdown
 You are a Lead QA Automation Engineer. Generate a hermetic, deterministic unit test suite for the provided target code.
 
 Requirements:
@@ -64,13 +65,13 @@ Requirements:
 2. Mock all external boundaries (I/O, database access, network calls, system clock).
 3. Cover Happy Paths, Boundary Conditions (empty collections, 0, limits, nulls), and Error Invariants.
 4. Each test must be completely independent and capable of parallel execution.
-`
+```
 
 ---
 
 ### 3. Master .cursorrules Drop-In Template
 
-`markdown
+```markdown
 # Master .cursorrules Production Template
 # Place this file in your project root as .cursorrules
 
@@ -81,13 +82,13 @@ You are an expert senior software engineer working on a mission-critical product
 2. Type Safety & Contracts: Always use strict typing. Never use any or untyped dictionaries for domain models.
 3. Zero Hallucinated Dependencies: Never introduce new third-party libraries unless explicitly requested. Always check existing manifests first.
 4. Error Handling: Every async operation and external call must handle error boundaries gracefully with typed domain errors.
-`
+```
 
 ---
 
 ## Repository Structure
 
-`	ext
+```text
 developer-prompt-vault/
 ├── cursor_rules/
 │   └── .cursorrules.example
@@ -95,26 +96,27 @@ developer-prompt-vault/
 │   └── solid_refactor.md
 ├── LICENSE
 └── README.md
-`
+```
 
 ---
 
 ## Quickstart & Installation
 
 To use these rules in your active projects:
-1. Copy .cursorrules.example to your repository root and rename it to .cursorrules.
+1. Copy `.cursorrules.example` to your repository root and rename it to `.cursorrules`.
 2. For Claude or ChatGPT, paste any instruction markdown block as your **System Instructions** before starting a coding session.
 3. To unlock the full directory of 150+ production prompts, [download the complete vault on Gumroad](https://nexusbuilds.gumroad.com/l/developer-prompt-vault).
 
 ---
- 
+
 ## Production Starter Kits & Commercial Blueprints
 
-For developers shipping production SaaS and AI infrastructure:
+For developers shipping production SaaS and automated AI infrastructure:
 
 | Starter Kit | Architecture & Tech Stack | Core Capabilities | Access |
 | :--- | :--- | :--- | :---: |
 | **Next.js 15 AI SaaS Starter Kit** | Next.js 15 (Turbopack), React 19, Supabase SSR, Tailwind | Sub-100ms Edge token streaming, auth guards, metrics dashboard, rate limits | [Get Access ($29)](https://nexusbuilds.gumroad.com/l/nextjs-ai-saas-kit) |
+| **Enterprise n8n AI Automation Vault** | 8 Production Workflows, Docker Compose | Autonomous issue triage, lead scoring, RAG pipelines, Stripe dunning | [Get Access ($24)](https://nexusbuilds.gumroad.com/l/n8n-ai-automation-vault) |
 | **FastAPI AI Agent Starter Kit** | Python 3.12, FastAPI, Async SSE, Docker, PyTest | Token bucket rate limiting, JWT auth, multi-stage Dockerfile, PyTest suite | [Get Access ($19)](https://nexusbuilds.gumroad.com/l/fastapi-ai-starter-kit) |
 | **Developer System Prompt Vault** | 150+ categorized .mdc & system prompt rulesets | Clean architecture, SOLID refactoring, table-driven unit testing | [Download (PWYW)](https://nexusbuilds.gumroad.com/l/developer-prompt-vault) |
 | **Pack Prompts Développeur (FR)** | 150+ prompts en français pour développeurs | Architecture logicielle, TDD, refactoring propre | [Télécharger (0€+)](https://nexusbuilds.gumroad.com/l/pack-prompts-developpeur-fr) |
