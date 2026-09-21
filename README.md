@@ -30,6 +30,7 @@ Unconstrained prompts lead to hallucinated imports, omitted edge cases, and verb
 | **OWASP Top 10 Security SAST Audit** | — | Comprehensive Inspector |
 | **Hardened Multi-Stage Dockerfiles** | — | Node, Python, Go, Rust |
 | **Hardened CI/CD Pipelines (GitHub Actions)** | — | 15+ Enterprise Workflows |
+| **Autonomous n8n AI Agent Workflows** | 1 Included (`workflows/`) | 8 Production Workflows (Full Vault) |
 | **French Language Edition Included** | — | Full Bilingual Suite |
 
 👉 [**Get the Full 150+ Instruction Package on Gumroad ($0+)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)
@@ -96,6 +97,8 @@ developer-prompt-vault/
 │   └── .cursorrules.example
 ├── prompts/
 │   └── solid_refactor.md
+├── workflows/
+│   └── 03-Lead-Enrichment-and-ICP-Scorer.json
 ├── LICENSE
 └── README.md
 ```

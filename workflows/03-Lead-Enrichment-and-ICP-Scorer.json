@@ -1,0 +1,117 @@
+{
+  "name": "03-Lead-Enrichment-and-ICP-Scorer",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "lead-submit",
+        "options": {}
+      },
+      "id": "node-1",
+      "name": "Lead Inbound Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        200,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "=https://api.hunter.io/v2/domain-search?domain={{$json.body.email.split('@')[1]}}",
+        "options": {}
+      },
+      "id": "node-2",
+      "name": "Domain & Company Lookup",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "prompt": "=Evaluate lead against Ideal Customer Profile (ICP). If company employees > 10 and role is Engineering/Founder, score A (Hot). Lead: {{$json.body}} Enriched: {{$json.data}}"
+      },
+      "id": "node-3",
+      "name": "ICP AI Evaluator",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.6,
+      "position": [
+        680,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "=@my_sales_leads",
+        "text": "\ud83d\udd25 New Hot Lead Qualified!\n{{$json.output}}"
+      },
+      "id": "node-4",
+      "name": "Alert High-Value Telegram Channel",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1,
+      "position": [
+        920,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Lead Inbound Webhook": {
+      "main": [
+        [
+          {
+            "node": "Domain & Company Lookup",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Domain & Company Lookup": {
+      "main": [
+        [
+          {
+            "node": "ICP AI Evaluator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ICP AI Evaluator": {
+      "main": [
+        [
+          {
+            "node": "Alert High-Value Telegram Channel",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "nexusbuilds-n8n-enterprise-vault",
+    "description": "Enriches inbound leads with company data and scores qualification"
+  },
+  "tags": [
+    {
+      "name": "NexusBuilds"
+    },
+    {
+      "name": "AI-Agent"
+    },
+    {
+      "name": "Production"
+    }
+  ]
+}
