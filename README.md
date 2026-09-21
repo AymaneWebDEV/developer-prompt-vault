@@ -8,11 +8,13 @@
 
 Unconstrained prompts lead to hallucinated imports, omitted edge cases, and verbose conversational filler. This repository contains deterministic, battle-tested instruction sets designed for clean architecture, precision refactoring, automated testing, and security audits.
 
+> ⚡ **Launch Week Special:** Use code `EARLYBIRD` at checkout for **40% OFF** any production starter kit (limited to first 10 builders):
+> - [**Next.js 15 AI SaaS Starter Kit ($17.40 with code)**](https://nexusbuilds.gumroad.com/l/nextjs-ai-saas-kit/EARLYBIRD)
+> - [**Enterprise n8n AI Automation Vault ($14.40 with code)**](https://nexusbuilds.gumroad.com/l/n8n-ai-automation-vault/EARLYBIRD)
+> - [**FastAPI AI Agent Micro-SaaS Kit ($11.40 with code)**](https://nexusbuilds.gumroad.com/l/fastapi-ai-starter-kit/EARLYBIRD)
+
 - [**Download the Complete 150+ Prompt Vault on Gumroad (English // Pay What You Want / $0+)**](https://nexusbuilds.gumroad.com/l/developer-prompt-vault)  
 - [**Télécharger l'Édition Française (Pack Prompts Développeur FR // 0€+)**](https://nexusbuilds.gumroad.com/l/pack-prompts-developpeur-fr)  
-- [**Production Boilerplate: Next.js 15 AI SaaS Starter Kit ($29)**](https://nexusbuilds.gumroad.com/l/nextjs-ai-saas-kit)  
-- [**Enterprise Automation: n8n AI Agent Automation Vault ($24)**](https://nexusbuilds.gumroad.com/l/n8n-ai-automation-vault)  
-- [**Production Boilerplate: FastAPI & AI Agent Micro-SaaS Starter Kit ($19)**](https://nexusbuilds.gumroad.com/l/fastapi-ai-starter-kit)  
 
 ---
 
